@@ -2,9 +2,9 @@ FROM python:3.5-slim-buster
 
 WORKDIR /app
 
-COPY requirements.txt requirements.txt
+COPY requirements.txt requirement.txt
 
-RUN pip3 install -r requirements.txt
+RUN pip3 install -r requirement.txt
 
 COPY app.py app.py
 
